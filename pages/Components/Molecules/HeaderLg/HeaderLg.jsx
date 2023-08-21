@@ -84,13 +84,3 @@ export default function Header() {
     </>
   );
 }
-
-export async function getStaticProps({ locale }) {
-  const response = await import(`../../../../lang/${locale}.json`);
-  console.log("preba", response.default.header);
-  return {
-    props: {
-      header: response.default.header,
-    },
-  };
-}

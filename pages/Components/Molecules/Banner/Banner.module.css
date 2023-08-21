@@ -1,0 +1,186 @@
+.prueba {
+    height: 500px;
+    background-color: #0000;
+    margin: 0;
+    display: flex;
+    position: relative;
+}
+
+
+
+.tituloBannner {
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 47px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nombre {
+    color: #07dcb9
+}
+
+.tituloBannner2 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 32px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.SegmentDown {
+
+    width: 180px;
+    height: 70px;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+.ButtonDown {
+    width: 150px;
+    height: 50px;
+}
+
+
+@media (max-width: 1370px) {
+
+    .tituloBannner {
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 1166px) {
+    .tituloBannner {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1021px) {
+    .tituloBannner {
+        font-size: 30px;
+    }
+
+    .tituloBannner2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 875px) {
+    .tituloBannner {
+        font-size: 25px;
+    }
+
+    .tituloBannner2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 729px) {
+    .tituloBannner {
+
+        font-size: 24px;
+
+    }
+
+    .tituloBannner2 {
+        font-size: 19px;
+    }
+}
+
+
+@media (max-width: 715px) {
+    .tituloBannner {
+
+        font-size: 23px;
+
+    }
+
+    .tituloBannner2 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 671px) {
+    .tituloBannner {
+
+        font-size: 22px;
+
+    }
+
+    .tituloBannner2 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 641px) {
+    .tituloBannner {
+
+        font-size: 21px;
+
+    }
+
+    .tituloBannner2 {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 613px) {
+    .prueba {
+        height: 450px;
+
+    }
+
+    .tituloBannner {
+
+        font-size: 20px;
+
+    }
+
+    .tituloBannner2 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 583px) {
+    .prueba {
+        height: 350px;
+
+    }
+
+    .tituloBannner {
+
+        font-size: 19px;
+
+    }
+
+    .tituloBannner2 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 553px) {
+
+
+    .tituloBannner {
+        top: 30%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+
+
+
+    }
+
+    .tituloBannner2 {
+        font-size: 14px;
+    }
+}

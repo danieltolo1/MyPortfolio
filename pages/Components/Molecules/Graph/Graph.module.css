@@ -1,0 +1,70 @@
+.cuadro1 {
+
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-right: 30px;
+    animation-name: cuadro1 !important;
+    animation-duration: 1s !important;
+    animation-timing-function: linear !important;
+    animation-fill-mode: forwards !important;
+}
+
+@keyframes cuadro1 {
+    0% {
+        opacity: 0.5;
+        transform: translatey(50px);
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translatey(0px);
+    }
+}
+
+
+.cuadro1Hidden {
+    display: none;
+}
+
+.cuadro {
+    padding: 30px 30px 10px 30px !important;
+
+
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+@media (max-width: 1020px) {
+    .cuadro1 {
+        padding-right: 0px;
+
+
+    }
+}
+
+
+@media (max-width: 960px) {
+    .cuadro {
+        padding-right: 10px !important;
+
+
+    }
+}
+
+@media (max-width: 840px) {
+    .cuadro {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+
+
+    }
+}

@@ -1,0 +1,9 @@
+@media (min-width: 1000px) {
+    .Slider {
+        height: 441px;
+    }
+
+    .ImageSlider {
+        height: 441px !important;
+    }
+}

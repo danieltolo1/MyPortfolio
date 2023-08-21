@@ -1,0 +1,11 @@
+.content {
+    display: block !important;
+}
+
+@media (max-width: 767px) {
+
+    .ActionModal {
+        margin-bottom: 20px !important;
+    }
+
+}

@@ -1,0 +1,10 @@
+.ImageFlat {
+    width: 40px;
+    height: 40px;
+}
+
+.ImageLogo {
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+}

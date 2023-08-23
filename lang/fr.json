@@ -1,0 +1,153 @@
+{
+    "home":{
+       " welcome":"welcome to next"
+    },
+    "header":{
+       "btnHOme":"Home"
+     },
+     "banner":{
+       "presentation":"Hello, I'm",
+       "presentation2":"I'm FrontEnd Developer",
+       "button": "View my Work"
+     },
+     "skills":{
+      "bigTitle":"ABOUT",
+      "title1":"Navigation",
+      "description1":"Clear menu structures that facilitate navigation between the different pages of the website",
+      "title2":"Intuitive",
+      "description2":"Strong preferences for easy use, Intuitive UX/UI.",
+      "title3":"Goals",
+      "description3":"Complete development of your idea on the Web",
+      "title4":"Responsive",
+      "description4":"All the development can be viewed without problems on any screen (big or small)"
+    },
+    "aboutMe":{
+      "titleAbout":"Who's this guy?",
+      "descriptionAbout":"I am a front-end developer and I currently live in the country of Malta. I have a great passion for UI effects, animations, and creating intuitive and dynamic user experiences.."
+    },
+    "projects":
+      [
+    {
+      "id": 1,
+      "SuperTitle": "MY PROJECTS",
+      "title": "Asiatol",
+      "subTitle": "Wordpress",
+      "image1": "https://i.imgur.com/urpfRVK.png",
+      "image2": "https://i.imgur.com/Lt2bWpJ.png",
+      "linkGitHub": "https://www.asiatol.com.co/",
+      "LinkWebpage": "https://www.asiatol.com.co/",
+      "subtitleModal":"Description",
+      "descriptionCard":"Responsive web page, developed with Wordpress and Elementor, important plugins are included for the correct functioning of the form and other important applications for the client, the database is MySql",
+      "buttonModal": "Learn More",
+      "buttonWebsite":"Go to the Website",
+      "programs": "wordpress",
+      "imgSlider1": "https://i.imgur.com/urpfRVK.png",
+      "imgSlider2": "https://i.imgur.com/feX21fY.png",
+      "imgSlider3": "https://i.imgur.com/xFmACVx.png"
+    },
+    {
+      "id": 2,
+      "title": "winwheel Dinamic",
+      "subTitle": "Html, Css y Javascript",
+      "image1": "https://i.imgur.com/AwQeTrV.png",
+      "image2": "https://i.imgur.com/GJQSCOh.png",
+      "linkGitHub": "https://www.asiatol.com.co/",
+      "LinkWebpage": "https://danieltolo1.github.io/Ruleta-con-Html-Css-y-JavaScript/",
+      "subtitleModal":"Description",
+      "descriptionCard":"this is the proof15",
+      "buttonModal": "Learn More",
+      "buttonWebsite":"Go to the Website",
+      "programs": "nextjs",
+      "imgSlider1": "https://i.imgur.com/1BFxDDK.png",
+      "imgSlider2": "https://i.imgur.com/FO8YyCw.png",
+      "imgSlider3": "https://i.imgur.com/FpWKUK1.png"
+    },
+    {
+      "id": 3,
+      "title": "Flota Occidental Form Responsive",
+      "subTitle": "Html, Css y Javascript",
+      "image1": "https://i.imgur.com/BGFTyYL.png",
+      "image2": "https://i.imgur.com/2jANib8.png",
+      "linkGitHub": "https://www.asiatol.com.co/",
+      "LinkWebpage": "www.asiatol.com",
+      "subtitleModal":"Description",
+      "descriptionCard":"this is the proof15",
+      "buttonModal": "Learn More",
+      "buttonWebsite":"Go to the Website",
+      "programs": "nextjs",
+      "imgSlider1": "https://i.imgur.com/KVYdeZI.png",
+      "imgSlider2": "https://i.imgur.com/Pn7g6Rb.png",
+      "imgSlider3": "https://i.imgur.com/B6JDGbF.png"
+    },
+    {
+      "id": 4,
+      "title": "Personnel Entry Control Biopark Ukumary",
+      "subTitle": "NEXT JS, Postgress",
+      "image1": "https://i.imgur.com/7leTvo4.png",
+      "image2": "https://i.imgur.com/lz98ZUQ.jpg",
+      "linkGitHub": "https://www.asiatol.com.co/",
+      "LinkWebpage": "www.asiatol.com",
+      "subtitleModal":"Description",
+      "descriptionCard":"Formulario responsive",
+      "buttonModal": "Learn More",
+      "buttonWebsite":"Go to the Website",
+      "programs": "nextjs",
+      "imgSlider1": "https://i.imgur.com/7leTvo4.png",
+      "imgSlider2": "https://i.imgur.com/lz98ZUQ.jpg",
+      "imgSlider3": "https://i.imgur.com/7leTvo4.png"
+    },
+    {
+      "id": 5,
+      "title": "Urban Fashion Jeans",
+      "subTitle": "Html, Css y Javascript",
+      "image1": "https://i.imgur.com/dCL1VfI.png",
+      "image2": "https://i.imgur.com/ZEFnn7v.png",
+      "linkGitHub": "https://www.asiatol.com.co/",
+      "LinkWebpage": "https://danieltolo1.github.io/WebPage-UrbanFashionJeans/",
+      "subtitleModal":"Description",
+      "descriptionCard":"Formulario responsive",
+      "buttonModal": "Learn More",
+      "buttonWebsite":"Go to the Website",
+      "programs": "nextjs",
+      "imgSlider1": "https://i.imgur.com/dCL1VfI.png",
+      "imgSlider2": "https://i.imgur.com/V3YVOHp.png",
+      "imgSlider3": "https://i.imgur.com/xlrJd3p.png"
+    },
+    {
+      "id": 6,
+      "title": "My Portfolio",
+      "subTitle": "NEXT JS, React Material UI",
+      "image1": "https://i.imgur.com/tnzHR9K.png",
+      "image2": "https://i.imgur.com/vPjk3SG.png",
+      "linkGitHub": "https://www.asiatol.com.co/",
+      "LinkWebpage": "www.asiatol.com",
+      "subtitleModal":"Description",
+      "descriptionCard":"Formulario responsive",
+      "buttonModal": "Learn More",
+      "buttonWebsite":"Go to the Website",
+      "programs": "nextjs",
+      "imgSlider1": "https://i.imgur.com/tnzHR9K.png",
+      "imgSlider2": "https://i.imgur.com/vPjk3SG.png",
+      "imgSlider3": "https://i.imgur.com/xlrJd3p.png"
+    },
+    {
+      "id": 7,
+      "title": "Territorios Solidiarios",
+      "subTitle": "Wordpress",
+      "image1": "https://i.imgur.com/2RlWmlQ.png",
+      "image2": "https://i.imgur.com/cAptHZr.png",
+      "linkGitHub": "https://www.asiatol.com.co/",
+      "LinkWebpage": "www.asiatol.com",
+      "subtitleModal":"Description",
+      "descriptionCard":"Formulario responsive",
+      "buttonModal": "Learn More",
+      "buttonWebsite":"Go to the Website",
+      "programs": "nextjs",
+      "imgSlider1": "https://i.imgur.com/2RlWmlQ.png",
+      "imgSlider2": "https://i.imgur.com/YIniMI2.png",
+      "imgSlider3": "https://i.imgur.com/xFmACVx.png"
+    }
+    
+    ]
+    
+    }

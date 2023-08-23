@@ -31,7 +31,6 @@ export default function Home(props) {
 
 export async function getStaticProps({ locale }) {
   const response = await import(`../lang/${locale}.json`);
-  console.log("otro", response.default.skills);
   return {
     props: {
       banner: response.default.banner,

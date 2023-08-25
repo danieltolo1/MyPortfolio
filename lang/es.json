@@ -4,7 +4,13 @@
        " welcome":"Benvenido a next"
     },
     "header":{
-      "btnHOme":"Inicio"
+      "aboutMe":"Acerca de Mi",
+      "projects":"Proyectos",
+      "skills":"Habilidades",
+      "contact":"Contacto",
+      "btnHOme":"Inicio",
+      "lenguage1":"Español",
+      "lenguage2":"Ingles"
     },
     "banner":{
       "presentation":"Hola, Soy",

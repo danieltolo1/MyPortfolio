@@ -1,7 +1,10 @@
 import { useState } from "react";
 import Image from "next/image";
-import { Menu, Sidebar } from "semantic-ui-react";
+import { useRouter } from "next/router";
+import { Menu, Sidebar, Icon } from "semantic-ui-react";
 import ImageLogo from "../.././../../img/LogoPequeno.png";
+import ingles from "../../../../img/ingles.png";
+import espanol from "../../../../img/espanol.png";
 
 import styles from "./HeaderMb.module.css";
 
@@ -25,11 +28,16 @@ function HamIcon() {
 function CloseIcon() {
   return <i className="big close red icon" />;
 }
-function HeaderMb({ renderLinks }) {
+function HeaderMb(header) {
+  const router = useRouter();
   const [visible, setVisible] = useState(false);
   const [icon, setIcon] = useState(HamIcon);
   const [activeItem, setactiveItem] = useState("home");
-  const handleItemClick = (e, { name }) => setactiveItem(name);
+  const handleItemClick = (e, { name }) => {
+    router.push(router.pathname, router.pathname, {
+      locale: name,
+    });
+  };
   const hideSidebar = () => {
     setIcon(HamIcon);
     setVisible(false);
@@ -64,32 +72,35 @@ function HeaderMb({ renderLinks }) {
         <Menu.Item>
           <Image src={ImageLogo} className={styles.ImageLogo} alt="" />
         </Menu.Item>
+        <Menu.Item name={header.header.btnHOme} as="a" />
+        <Menu.Item name={header.header.aboutMe} as="a" />
+        <Menu.Item name={header.header.skills} as="a" />
+        <Menu.Item name={header.header.projects} as="a" position="right" />
+        <Menu.Item name={header.header.contact} as="a" />
         <Menu.Item
-          name="home"
-          active={activeItem === "home"}
+          className={styles.flatLenguage}
+          name="en"
           onClick={handleItemClick}
-        />
+        >
+          <Image
+            className={styles.ImageFlat}
+            src={ingles}
+            alt="Picture of the author"
+          />
+          <p className={styles.pe}> {header.header.lenguage2}</p>
+        </Menu.Item>
         <Menu.Item
-          name="messages"
-          active={activeItem === "messages"}
+          className={styles.flatLenguage}
+          name="es"
           onClick={handleItemClick}
-        />
-        <Menu.Item
-          name="friends"
-          active={activeItem === "friends"}
-          onClick={handleItemClick}
-        />
-        <Menu.Item
-          name="login"
-          active={activeItem === "login"}
-          onClick={handleItemClick}
-          position="right"
-        />
-        <Menu.Item
-          name="sign_in"
-          active={activeItem === "sign_in"}
-          onClick={handleItemClick}
-        />
+        >
+          <Image
+            className={styles.ImageFlat}
+            src={espanol}
+            alt="Picture of the author"
+          />
+          <p className={styles.pe}>{header.header.lenguage1}</p>
+        </Menu.Item>
       </Sidebar>
     </>
   );

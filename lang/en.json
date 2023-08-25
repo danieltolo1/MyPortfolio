@@ -5,7 +5,13 @@
    " welcome":"welcome to next"
 },
 "header":{
-   "btnHOme":"Home"
+  "aboutMe":"About",
+  "projects":"Projects",
+  "skills":"Skills",
+  "contact":"Contact",
+  "btnHOme":"Index",
+  "lenguage1":"Spanish",
+  "lenguage2":"English"
  },
  "banner":{
    "presentation":"Hello, I'm",

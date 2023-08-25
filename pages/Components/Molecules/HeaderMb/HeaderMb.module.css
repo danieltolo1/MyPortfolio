@@ -4,3 +4,32 @@
     margin: 0 auto;
     border-radius: 10px;
 }
+
+.flatLenguage {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: left !important;
+}
+
+.IconMenuMb {
+    display: flex !important;
+    justify-content: flex-start !important;
+    margin: 0 !important;
+
+}
+
+.ImageFlat {
+    width: 20px !important;
+    height: 20px;
+}
+
+.pe {
+    margin-left: 2px !important;
+}
+
+
+.ui.labeled.icon.menu .item>.icon:not(.dropdown) {
+    margin: 0 auto 0.1rem !important;
+}

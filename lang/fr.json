@@ -3,7 +3,13 @@
        " welcome":"welcome to next"
     },
     "header":{
-       "btnHOme":"Home"
+        "aboutMe":"Acerca de Mi",
+        "projects":"Proyectos",
+        "skills":"Acerca de Mi",
+        "contact":"Contacto",
+        "btnHOme":"Inicio",
+        "lenguage1":"Spanish",
+        "lenguage2":"English"
      },
      "banner":{
        "presentation":"Hello, I'm",

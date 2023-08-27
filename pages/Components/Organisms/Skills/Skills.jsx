@@ -30,7 +30,7 @@ const Skills = (skill) => {
   }, []);
 
   return (
-    <div className={styles.contenido}>
+    <div id="skillpart" className={styles.contenido}>
       <h1 className={styles.subtitle}>{skill.skill.bigTitle} </h1>
       <div className={hold ? styles.contenidoCards : styles.cardHidden}>
         <Card className={styles.card}>

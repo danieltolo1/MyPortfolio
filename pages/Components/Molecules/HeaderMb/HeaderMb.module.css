@@ -13,6 +13,22 @@
     text-align: left !important;
 }
 
+.HeaderClass {
+    align-items: center !important;
+    transition: all 0.5s ease !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.HeaderClass:hover {
+    background: rgba(7, 220, 185, .5);
+    color: #fff !important;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
 .IconMenuMb {
     display: flex !important;
     justify-content: flex-start !important;

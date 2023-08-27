@@ -5,7 +5,6 @@ import HeaderMb from "../../Molecules/HeaderMb/HeaderMb";
 import HeaderLg from "../../Molecules/HeaderLg/HeaderLg";
 
 const Header = (header) => {
-  console.log("en el header grande", header);
   const none = useMediaQuery({ query: "(max-width:672px)" });
   const sm = useMediaQuery({ query: "(min-width:672px)" });
   const md = useMediaQuery({ query: "(min-width:768px)" });

@@ -8,3 +8,18 @@
     height: 40px;
     border-radius: 10px;
 }
+
+.HeaderClass {
+    align-items: center !important;
+    transition: all 0.5s ease !important;
+    display: flex !important;
+}
+
+.HeaderClass:hover {
+    background: rgba(7, 220, 185, .5);
+    color: #fff !important;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}

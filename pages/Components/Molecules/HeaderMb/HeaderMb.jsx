@@ -2,6 +2,8 @@ import { useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { Menu, Sidebar, Icon } from "semantic-ui-react";
+import { Link } from "react-scroll/modules";
+
 import ImageLogo from "../.././../../img/LogoPequeno.png";
 import ingles from "../../../../img/ingles.png";
 import espanol from "../../../../img/espanol.png";
@@ -70,13 +72,57 @@ function HeaderMb(header) {
         width="thin"
       >
         <Menu.Item>
-          <Image src={ImageLogo} className={styles.ImageLogo} alt="" />
+          <Image
+            src={ImageLogo}
+            className={styles.ImageLogo}
+            alt="Image Logo Daniel"
+          />
         </Menu.Item>
-        <Menu.Item name={header.header.btnHOme} as="a" />
-        <Menu.Item name={header.header.aboutMe} as="a" />
-        <Menu.Item name={header.header.skills} as="a" />
-        <Menu.Item name={header.header.projects} as="a" position="right" />
-        <Menu.Item name={header.header.contact} as="a" />
+        <Link
+          className={styles.HeaderClass}
+          activeClass="active"
+          to="aboutpart"
+          spy={true}
+          smooth={true}
+          offset={-2500}
+          duration={900}
+        >
+          <Menu.Item name={header.header.btnHOme} />
+        </Link>
+        <Link
+          className={styles.HeaderClass}
+          activeClass="active"
+          to="aboutpart"
+          spy={true}
+          smooth={true}
+          offset={-1100}
+          duration={900}
+        >
+          <Menu.Item name={header.header.aboutMe} />
+        </Link>
+        <Link
+          className={styles.HeaderClass}
+          activeClass="active"
+          to="aboutpart"
+          spy={true}
+          smooth={true}
+          offset={-1900}
+          duration={900}
+        >
+          <Menu.Item name={header.header.skills} />
+        </Link>
+        <Link
+          className={styles.HeaderClass}
+          activeClass="active"
+          to="aboutpart"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={900}
+        >
+          <Menu.Item name={header.header.projects} position="right" />
+        </Link>
+        <Menu.Item name={header.header.contact} />
         <Menu.Item
           className={styles.flatLenguage}
           name="en"

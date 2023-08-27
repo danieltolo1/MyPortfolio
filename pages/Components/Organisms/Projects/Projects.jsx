@@ -78,7 +78,7 @@ const Projects = (projects) => {
   const dataJs = projects.projects;
 
   return (
-    <div className={styles.container}>
+    <div id="aboutpart" className={styles.container}>
       <h1 className={styles.Title}>{dataJs[0].SuperTitle}</h1>
       <div className={styles.gallery}>
         <>

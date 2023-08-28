@@ -10,13 +10,14 @@
   "skills":"Skills",
   "contact":"Contact",
   "btnHOme":"Index",
+  "btnClose":"Close",
   "lenguage1":"Spanish",
   "lenguage2":"English"
  },
  "banner":{
    "presentation":"Hello, I'm",
    "presentation2":"I'm FrontEnd Developer",
-   "button": "View my Work"
+   "button": "Contact Me   "
  },
  "skills":{
   "bigTitle":"ABOUT",

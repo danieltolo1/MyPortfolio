@@ -27,6 +27,31 @@
     padding: 0 !important;
     margin: 0 !important;
     width: 300px !important;
+    animation-name: card !important;
+    animation-duration: 1s !important;
+    animation-timing-function: linear !important;
+    animation-fill-mode: forwards !important;
+}
+
+.cardHidden {
+    display: none;
+}
+
+
+@keyframes card {
+    0% {
+        opacity: 0.5;
+        transform: translateX(-30px);
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
 
 .reveal {

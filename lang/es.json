@@ -9,13 +9,14 @@
       "skills":"Habilidades",
       "contact":"Contacto",
       "btnHOme":"Inicio",
+      "btnClose":"Cerrar",
       "lenguage1":"Español",
       "lenguage2":"Ingles"
     },
     "banner":{
       "presentation":"Hola, Soy",
       "presentation2":"y soy desarrollador FrontEnd",
-      "button": "Mira mi Trabajo"
+      "button": "Contáctame  "
     },
     "skills":{
       "bigTitle":"ACERCA DE MI",

@@ -147,6 +147,14 @@ function HeaderMb(header) {
           />
           <p className={styles.pe}>{header.header.lenguage1}</p>
         </Menu.Item>
+        <Menu.Item
+          className={styles.cerrar}
+          name="Close"
+          onClick={toggleSidebar}
+        >
+          <Icon color="red" link name="close" />
+          <p className={styles.pe}>{header.header.btnClose}</p>
+        </Menu.Item>
       </Sidebar>
     </>
   );

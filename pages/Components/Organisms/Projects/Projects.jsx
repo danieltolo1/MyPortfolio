@@ -1,10 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Card, Icon, Reveal, Button, Image } from "semantic-ui-react";
-// import Image from "next/image";
-import Link from "next/link";
-import ModalProject from "../../Molecules/ModalProject/ModalProject";
 
-import { products } from "../../../../Data/Projects";
+import ModalProject from "../../Molecules/ModalProject/ModalProject";
 
 import styles from "./Project.module.css";
 
@@ -20,6 +17,7 @@ const Extra = (props) => {
     titleDescription,
     btnWebsite,
   } = props;
+
   return (
     <>
       <ModalProject
@@ -33,16 +31,6 @@ const Extra = (props) => {
         titleDescription={titleDescription}
         btnWebsite={btnWebsite}
       />
-      {/* <Link href={link}>
-        <Button className={styles.buttonCard}>
-          <Icon name="github" />
-          {names}
-        </Button>
-      </Link>
-      <Button className={styles.buttonCard}>
-        <Icon name="user" />
-        {names}
-      </Button> */}
     </>
   );
 };
@@ -77,10 +65,35 @@ const ImageNat = (props) => {
 const Projects = (projects) => {
   const dataJs = projects.projects;
 
+  const [hold, setHold] = useState(false);
+
+  function setHolder4() {
+    if (window.scrollY >= 900 || window.screen.width < 738) {
+      setHold(true);
+    } else {
+      if (window.screen.width >= 738 && window.scrollY >= 900) {
+        setHold(true);
+      } else {
+        setHold(false);
+      }
+    }
+  }
+
+  function setHolder5() {
+    if (window.screen.width < 1300) {
+      setHold(true);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", setHolder4);
+    window.onload = setHolder5();
+  }, []);
+
   return (
     <div id="aboutpart" className={styles.container}>
       <h1 className={styles.Title}>{dataJs[0].SuperTitle}</h1>
-      <div className={styles.gallery}>
+      <div className={hold ? styles.gallery : styles.cardHidden}>
         <>
           {dataJs.map((project) => (
             <Card

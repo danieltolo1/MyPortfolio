@@ -49,3 +49,15 @@
 .ui.labeled.icon.menu .item>.icon:not(.dropdown) {
     margin: 0 auto 0.1rem !important;
 }
+
+.cerrar {
+    position: fixed !important;
+    bottom: 0 !important;
+    z-index: 999999 !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: left !important;
+
+}

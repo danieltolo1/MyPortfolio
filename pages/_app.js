@@ -9,9 +9,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Potafolio Daniel Torres</title>
+        <title>Portafolio Daniel Torres</title>
         <meta name="description" content="Portafolio Daniel Torres L" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/LogoPequeno.ico" />
       </Head>
 
       <Component {...pageProps} />

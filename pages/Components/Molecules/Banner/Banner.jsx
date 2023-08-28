@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Segment } from "semantic-ui-react";
+import { Button, Segment, Icon } from "semantic-ui-react";
 import ParticulesBackgroud from "../../Atoms/particulesBackgroud/ParticulesBackgroud";
 
 import styles from "./Banner.module.css";
@@ -15,7 +15,13 @@ const Banner = (presentation) => {
       </div>
       <div className={styles.tituloBannner2}>{presentation.presentation2}</div>
       <Segment className={styles.SegmentDown} inverted>
-        <Button className={styles.ButtonDown} inverted color="green">
+        <Button
+          href="https://wa.link/rzp0cy"
+          className={styles.ButtonDown}
+          inverted
+          color="green"
+        >
+          <Icon name="whatsapp" />
           {presentation.presentation3}
         </Button>
       </Segment>

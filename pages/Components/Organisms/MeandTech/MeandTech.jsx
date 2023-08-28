@@ -24,7 +24,6 @@ const MeandTech = (aboutMe) => {
 
   function setHolder2() {
     if (window.screen.width < 1300) {
-      console.log("estoy adentro");
       setHold1(true);
     }
   }

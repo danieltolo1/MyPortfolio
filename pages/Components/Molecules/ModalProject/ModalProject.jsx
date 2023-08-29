@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Header, Image, Modal, Icon } from "semantic-ui-react";
+import { Button, Header, Menu, Modal, Icon } from "semantic-ui-react";
 import Link from "next/link";
 
 import CarrouselModal from "../../Atoms/CarrouselModal/CarrouselModal";
@@ -11,6 +11,7 @@ const ModalProject = (props) => {
   const {
     name,
     link,
+    link2,
     imageModal1,
     imageModal2,
     imageModal3,
@@ -18,6 +19,7 @@ const ModalProject = (props) => {
     description,
     titleDescription,
     btnWebsite,
+    btnGitHub,
   } = props;
   const [open, setOpen] = useState(false);
   return (
@@ -34,7 +36,12 @@ const ModalProject = (props) => {
         </Button>
       }
     >
-      <Modal.Header>{name}</Modal.Header>
+      <Modal.Header className={styles.ModalHeader}>
+        <p className={styles.pname}>{name}</p>
+        <Menu.Item onClick={() => setOpen(false)}>
+          <Icon link color="red" name="close" />
+        </Menu.Item>
+      </Modal.Header>
       <Modal.Content className={styles.content} image>
         {/* <Image size="big" src={image} centered /> */}
         <CarrouselModal
@@ -45,13 +52,12 @@ const ModalProject = (props) => {
         <Modal.Description>
           <Header>{titleDescription}</Header>
           <p>{description}</p>
-          <p>Is it okay to use this photo?</p>
         </Modal.Description>
       </Modal.Content>
       <Modal.Actions className={styles.ActionModal}>
-        <Link href={link}>
+        <Link href={link2}>
           <Button color="black" onClick={() => setOpen(false)} animated>
-            <Button.Content visible>{btnWebsite}</Button.Content>
+            <Button.Content visible>{btnGitHub}</Button.Content>
             <Button.Content hidden>
               <Icon name="github" />
             </Button.Content>

@@ -2,6 +2,16 @@
     display: block !important;
 }
 
+.ModalHeader {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.pname {
+    margin: 0;
+}
+
 @media (max-width: 767px) {
 
     .ActionModal {

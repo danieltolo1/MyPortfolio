@@ -9,6 +9,7 @@ const Extra = (props) => {
   const {
     names,
     link,
+    link2,
     ima1,
     ima2,
     ima3,
@@ -16,6 +17,7 @@ const Extra = (props) => {
     description,
     titleDescription,
     btnWebsite,
+    btnGitHub,
   } = props;
 
   return (
@@ -23,6 +25,7 @@ const Extra = (props) => {
       <ModalProject
         name={names}
         link={link}
+        link2={link2}
         imageModal1={ima1}
         imageModal2={ima2}
         imageModal3={ima3}
@@ -30,6 +33,7 @@ const Extra = (props) => {
         description={description}
         titleDescription={titleDescription}
         btnWebsite={btnWebsite}
+        btnGitHub={btnGitHub}
       />
     </>
   );
@@ -106,6 +110,7 @@ const Projects = (projects) => {
                 <Extra
                   names={project.title}
                   link={project.LinkWebpage}
+                  link2={project.linkGitHub}
                   ima1={project.imgSlider1}
                   ima2={project.imgSlider2}
                   ima3={project.imgSlider3}
@@ -113,6 +118,7 @@ const Projects = (projects) => {
                   description={project.descriptionCard}
                   titleDescription={project.subtitleModal}
                   btnWebsite={project.buttonWebsite}
+                  btnGitHub={project.buttonGitHub}
                 />
               }
               key={project.id}

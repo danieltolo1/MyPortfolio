@@ -8,6 +8,7 @@
   "aboutMe":"About",
   "projects":"Projects",
   "skills":"Skills",
+  "certifications":"Certifications",
   "contact":"Contact",
   "btnHOme":"Index",
   "btnClose":"Close",
@@ -164,6 +165,36 @@
   "imgSlider3": "https://i.imgur.com/xFmACVx.png"
 }
 
-]
+],
+"certifications":
+[{
+  "id": 1,
+  "SuperTitle": "CERTIFICATIONS",
+  "imageCertificate": "https://i.imgur.com/3iLAYDT.png",
+  "link":"https://drive.google.com/file/d/148WZHd4TA8zXB8lsdtKjqPrDPrjSAlMi/view?usp=drive_link"
+},
+{
+"id": 2,
+  "imageCertificate": "https://i.imgur.com/DGu4TPI.jpg",
+  "link":"https://drive.google.com/file/d/1rzr1tvgT1I3ncXjnGPJEn8IaWmonnRab/view?usp=drive_link"
+},
+{
+"id": 3,
+  "imageCertificate": "https://i.imgur.com/dKAxBv5.png",
+  "link":"https://drive.google.com/file/d/1Ld840Gmzv6RoZF3b80_jiMcqDDP9T2ls/view?usp=drive_link"
+},
+{
+"id": 4,
+  "imageCertificate": "https://i.imgur.com/NhP1bjt.png",
+  "link":"https://drive.google.com/file/d/1Lp0tlAJM2zKATk0RO9jf-c55Qijckptg/view?usp=drive_link"
+},{
+"id": 5,
+  "imageCertificate": "https://i.imgur.com/3WEdViy.png",
+  "link":"https://drive.google.com/file/d/1Leg_E8eSi4EY0ubE7iP5uxxwXpslDv42/view?usp=drive_link"
+},{
+"id": 6,
+  "imageCertificate": "https://i.imgur.com/WV4UNux.png",
+  "link":"https://drive.google.com/file/d/1LdpQ3OMkVQ5h-5EwSWM9lTeyKAvjg67e/view?usp=drive_link"
+}]
 
 }

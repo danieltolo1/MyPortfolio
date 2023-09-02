@@ -43,7 +43,7 @@ const Skills = (skill) => {
           <Card.Content className={styles.Content} />
           <Card.Content className={styles.CardExtra} extra>
             <h1 className={styles.CardExtraTitle}>{skill.skill.title1}</h1>
-            <p>{skill.skill.description1}</p>
+            {skill.skill.description1}
           </Card.Content>
         </Card>
         <Card className={styles.card}>

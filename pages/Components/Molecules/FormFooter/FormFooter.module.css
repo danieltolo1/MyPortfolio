@@ -1,0 +1,29 @@
+.Container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Form {
+    display: inline-block;
+    justify-content: center;
+    width: 70%;
+}
+
+@media (max-width: 1200px) {
+    .Form {
+        width: 60%;
+
+    }
+}
+
+
+@media (max-width: 768px) {
+    .Form {
+        width: 100%;
+
+    }
+}

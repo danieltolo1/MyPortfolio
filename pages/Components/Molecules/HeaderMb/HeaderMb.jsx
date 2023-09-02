@@ -122,6 +122,17 @@ function HeaderMb(header) {
         >
           <Menu.Item name={header.header.projects} position="right" />
         </Link>
+        <Link
+          className={styles.HeaderClass}
+          activeClass="active"
+          to="aboutpart"
+          spy={true}
+          smooth={true}
+          offset={2900}
+          duration={900}
+        >
+          <Menu.Item name={header.header.certifications} position="right" />
+        </Link>
         <Menu.Item name={header.header.contact} />
         <Menu.Item
           className={styles.flatLenguage}

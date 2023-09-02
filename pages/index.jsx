@@ -4,12 +4,14 @@ import Banner from "../pages/Components/Molecules/Banner/Banner";
 import Skills from "../pages/Components/Organisms/Skills/Skills";
 import MeandTech from "./Components/Organisms/MeandTech/MeandTech";
 import Projects from "./Components/Organisms/Projects/Projects";
+import MyCertificate from "./Components/Organisms/MyCertificate/MyCertificate";
+import Footer from "./Components/Organisms/Footer/Footer";
 
 import styles from "../styles/Home.module.css";
 import Header from "./Components/Organisms/Header/Header";
 
 export default function Home(props) {
-  const { banner, skills, aboutMe, projects, header } = props;
+  const { banner, skills, aboutMe, projects, header, certifications } = props;
 
   const presentation = [
     banner.presentation,
@@ -33,6 +35,8 @@ export default function Home(props) {
         <Skills skill={skills} />
         <MeandTech aboutMe={aboutMe} />
         <Projects projects={projects} />
+        <MyCertificate certifications={certifications} />
+        <Footer />
       </div>
     </>
   );
@@ -47,6 +51,7 @@ export async function getStaticProps({ locale }) {
       skills: response.default.skills,
       aboutMe: response.default.aboutMe,
       projects: response.default.projects,
+      certifications: response.default.certifications,
     },
   };
 }

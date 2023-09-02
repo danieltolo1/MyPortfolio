@@ -65,7 +65,7 @@
     padding-top: 10px !important;
     padding-left: 10px !important;
     background-color: white !important;
-    height: 155px !important;
+    height: 175px !important;
 }
 
 .CardExtraTitle {
@@ -83,6 +83,7 @@
     .contenidoCards {
         display: flex;
         flex-wrap: wrap;
+
 
     }
 
@@ -109,6 +110,6 @@
     .contenido {
         padding-top: 35px;
         background-color: white;
-        height: 800px;
+        height: 830px;
     }
 }

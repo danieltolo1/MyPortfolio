@@ -47,7 +47,7 @@ export default function Header(header) {
             spy={true}
             smooth={true}
             offset={800}
-            duration={900}
+            duration={1500}
           >
             <Menu.Item name={header.header.projects} />
           </Link>
@@ -61,6 +61,17 @@ export default function Header(header) {
             duration={700}
           >
             <Menu.Item name={header.header.skills} />
+          </Link>
+          <Link
+            className={styles.HeaderClass}
+            activeClass="active"
+            to="skillpart"
+            spy={true}
+            smooth={true}
+            offset={2200}
+            duration={2000}
+          >
+            <Menu.Item name={header.header.certifications} />
           </Link>
           <Link
             className={styles.HeaderClass}

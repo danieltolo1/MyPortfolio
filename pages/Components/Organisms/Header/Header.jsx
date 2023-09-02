@@ -5,9 +5,9 @@ import HeaderMb from "../../Molecules/HeaderMb/HeaderMb";
 import HeaderLg from "../../Molecules/HeaderLg/HeaderLg";
 
 const Header = (header) => {
-  const none = useMediaQuery({ query: "(max-width:672px)" });
-  const sm = useMediaQuery({ query: "(min-width:672px)" });
-  const md = useMediaQuery({ query: "(min-width:768px)" });
+  const none = useMediaQuery({ query: "(max-width:780px)" });
+  const sm = useMediaQuery({ query: "(min-width:780px)" });
+  const md = useMediaQuery({ query: "(min-width:790px)" });
   const lg = useMediaQuery({ query: "(min-width:992px)" });
   const xl = useMediaQuery({ query: "(min-width:1200px)" });
   const xxl = useMediaQuery({ query: "(min-width:1400px)" });

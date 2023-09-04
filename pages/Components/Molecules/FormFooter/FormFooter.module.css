@@ -4,14 +4,46 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    padding-bottom: 20px;
+    height: 100%;
 }
 
 .Form {
     display: inline-block;
     justify-content: center;
-    width: 70%;
+    width: 50%;
 }
+
+.description {
+    color: #07dcb9;
+}
+
+.inputArea {
+
+    margin-bottom: 2px !important;
+
+}
+
+.btnSend {
+    margin: 0 !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+    color: white !important;
+    border: 1px solid white !important;
+    background-color: transparent !important;
+    border-radius: 5px !important;
+    height: 40px !important;
+
+}
+
+
+.btnSend:hover {
+    background-color: #07dcb9 !important;
+    color: white !important;
+}
+
+
+
 
 @media (max-width: 1200px) {
     .Form {

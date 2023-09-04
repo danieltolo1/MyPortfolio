@@ -1,5 +1,5 @@
 .contenido {
-    padding-top: 70px;
+    padding-top: 40px;
     background-color: white;
     height: 100%;
 }
@@ -9,10 +9,22 @@
     justify-content: space-around;
 }
 
+.hrTitle {
+
+    height: 4px;
+    border: solid;
+    background-color: black;
+    border-radius: 10px;
+    width: 105px;
+    margin-bottom: 40px;
+
+}
+
+
 .subtitle {
     text-align: center;
     font-size: 40px;
-    text-decoration-line: underline;
+
 }
 
 .cardHidden {
@@ -26,7 +38,7 @@
     width: 200px !important;
     height: 80% !important;
     margin-top: 20px !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 15px !important;
     border-radius: 50 50 50 50 !important;
     background-color: #07dcb9 !important;
     display: flex !important;
@@ -110,6 +122,6 @@
     .contenido {
         padding-top: 35px;
         background-color: white;
-        height: 830px;
+        height: 890px;
     }
 }

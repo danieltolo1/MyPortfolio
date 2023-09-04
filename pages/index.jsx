@@ -11,7 +11,8 @@ import styles from "../styles/Home.module.css";
 import Header from "./Components/Organisms/Header/Header";
 
 export default function Home(props) {
-  const { banner, skills, aboutMe, projects, header, certifications } = props;
+  const { banner, skills, aboutMe, projects, header, certifications, contact } =
+    props;
 
   const presentation = [
     banner.presentation,
@@ -36,7 +37,7 @@ export default function Home(props) {
         <MeandTech aboutMe={aboutMe} />
         <Projects projects={projects} />
         <MyCertificate certifications={certifications} />
-        <Footer />
+        <Footer contact={contact} />
       </div>
     </>
   );
@@ -52,6 +53,7 @@ export async function getStaticProps({ locale }) {
       aboutMe: response.default.aboutMe,
       projects: response.default.projects,
       certifications: response.default.certifications,
+      contact: response.default.contact,
     },
   };
 }

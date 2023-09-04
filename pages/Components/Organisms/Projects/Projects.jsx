@@ -97,6 +97,7 @@ const Projects = (projects) => {
   return (
     <div id="aboutpart" className={styles.container}>
       <h1 className={styles.Title}>{dataJs[0].SuperTitle}</h1>
+      <hr className={styles.hrTitle} />
       <div className={hold ? styles.gallery : styles.cardHidden}>
         <>
           {dataJs.map((project) => (

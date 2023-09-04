@@ -5,7 +5,7 @@ import * as Yup from "yup";
 
 import styles from "./FormFooter.module.css";
 
-const FormFooter = () => {
+const FormFooter = (contact) => {
   const formik = useFormik({
     initialValues: {
       name: "",
@@ -26,34 +26,39 @@ const FormFooter = () => {
   return (
     <div>
       <Container className={styles.Container}>
-        <h1>Formulario de footer</h1>
+        <h3 className={styles.description}>{contact.contact.description}</h3>
         <Form className={styles.Form} onSubmit={formik.handleSubmit}>
           <Form.Input
+            className={styles.inputArea}
             type="text"
-            placeholder="Nombre y Apellido"
+            placeholder={contact.contact.label1Name}
             name="name"
             onChange={formik.handleChange}
             error={formik.errors.name && true}
             value={formik.values.name}
           />
           <Form.Input
+            className={styles.inputArea}
             type="text"
-            placeholder="Correo Electronico"
+            placeholder={contact.contact.label2Email}
             name="email"
             onChange={formik.handleChange}
             error={formik.errors.email && true}
             value={formik.values.email}
           />
           <Form.Field
+            className={styles.inputTArea}
+            style={{ minHeight: 200 }}
             control={TextArea}
-            label="About"
-            placeholder="Tell us more about you..."
+            placeholder={contact.contact.message}
             name="textAd"
             onChange={formik.handleChange}
             error={formik.errors.textAd && true}
             value={formik.values.textAd}
           />
-          <Button type="submit">Enviar</Button>
+          <Button className={styles.btnSend} type="submit">
+            {contact.contact.buttonSend}
+          </Button>
         </Form>
       </Container>
     </div>

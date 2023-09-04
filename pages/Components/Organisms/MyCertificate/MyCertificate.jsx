@@ -33,7 +33,8 @@ const MyCertificate = (certifications) => {
 
   return (
     <div className={styles.bigContainer}>
-      <div className={styles.title}>{dataJs[0].SuperTitle}</div>
+      <h1 className={styles.title}>{dataJs[0].SuperTitle}</h1>
+      <hr className={styles.hrTitle} />
       <div className={hold ? styles.containerCertificate : styles.cardHidden}>
         {dataJs.map((data) => (
           <Card

@@ -32,6 +32,7 @@ const Skills = (skill) => {
   return (
     <div id="skillpart" className={styles.contenido}>
       <h1 className={styles.subtitle}>{skill.skill.bigTitle} </h1>
+      <hr className={styles.hrTitle} />
       <div className={hold ? styles.contenidoCards : styles.cardHidden}>
         <Card className={styles.card}>
           <Icon

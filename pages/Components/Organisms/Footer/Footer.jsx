@@ -1,9 +1,9 @@
 import React from "react";
 import { Icon } from "semantic-ui-react";
 import FormFooter from "../../Molecules/FormFooter/FormFooter";
+import IconSocialMedia from "../../Atoms/IconSocialMedia/IconSocialMedia";
 
-import Link from "next/link";
-import Image from "next/image";
+import { Link } from "react-scroll/modules";
 
 import styles from "./Footer.module.css";
 
@@ -16,52 +16,32 @@ const Footer = (contact) => {
         <h1 className={styles.title}>{data.title}</h1>
         <hr className={styles.hrTitle} />
         <FormFooter contact={data} />
-        <Icon
-          color="teal"
-          className={styles.IconCenter}
-          name="toggle up"
-          size="huge"
-        />
+        <Link
+          activeClass="active"
+          to="aboutpart"
+          spy={true}
+          smooth={true}
+          offset={-2500}
+          duration={2500}
+        >
+          <Icon
+            color="teal"
+            className={styles.IconCenter}
+            name="toggle up"
+            size="huge"
+          />
+        </Link>
       </div>
 
       <footer className={styles.footer}>
-        <div className={styles.socialMedia}>
-          <Icon
-            className={styles.socialMediaIcon}
-            name="linkedin"
-            size="huge"
-          />
-          <Icon
-            className={styles.socialMediaIcon}
-            name="whatsapp square"
-            size="huge"
-          />
-          <Icon
-            className={styles.socialMediaIcon}
-            name="whatsapp square"
-            size="huge"
-          />
-          <Icon
-            className={styles.socialMediaIcon}
-            name="github square"
-            size="huge"
-          />
-        </div>
+        <IconSocialMedia />
         <div>
           <Link
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://wa.link/0g3uwp"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Powered by{" Daniel Torres Londoño "}
-            <span className={styles.logo}>
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                width={72}
-                height={16}
-              />
-            </span>
+            - Powered by{" Daniel Torres Londoño 2023 -"}
           </Link>
         </div>
       </footer>

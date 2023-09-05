@@ -1,0 +1,14 @@
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.socialMediaIcon {
+    color: #07dcb9 !important;
+    transition: all ease 0.7s;
+}
+
+.socialMediaIcon:hover {
+    color: white !important;
+}

@@ -199,7 +199,9 @@
   "label1Name":"Nombre",
   "label2Email":"Correo Electronico",
   "message":"Escribe tu Mensaje",
-  "buttonSend" : "Enviar"
+  "buttonSend" : "Enviar",
+  "msgSuccess" : "Muchas Gracias por el Mensaje, Te respondere lo antes posible",
+  "msgError" : "Lo siento, Intenta enviar el mensaje nuevamente"
 }
     
     

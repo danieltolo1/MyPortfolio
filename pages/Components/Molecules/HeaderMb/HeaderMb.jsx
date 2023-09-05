@@ -85,7 +85,7 @@ function HeaderMb(header) {
           spy={true}
           smooth={true}
           offset={-2500}
-          duration={900}
+          duration={1500}
         >
           <Menu.Item name={header.header.btnHOme} />
         </Link>
@@ -96,7 +96,7 @@ function HeaderMb(header) {
           spy={true}
           smooth={true}
           offset={-1100}
-          duration={900}
+          duration={1500}
         >
           <Menu.Item name={header.header.aboutMe} />
         </Link>
@@ -107,7 +107,7 @@ function HeaderMb(header) {
           spy={true}
           smooth={true}
           offset={-1900}
-          duration={900}
+          duration={1500}
         >
           <Menu.Item name={header.header.skills} />
         </Link>
@@ -118,7 +118,7 @@ function HeaderMb(header) {
           spy={true}
           smooth={true}
           offset={0}
-          duration={900}
+          duration={1500}
         >
           <Menu.Item name={header.header.projects} position="right" />
         </Link>
@@ -129,11 +129,21 @@ function HeaderMb(header) {
           spy={true}
           smooth={true}
           offset={2900}
-          duration={900}
+          duration={1500}
         >
           <Menu.Item name={header.header.certifications} position="right" />
         </Link>
-        <Menu.Item name={header.header.contact} />
+        <Link
+          className={styles.HeaderClass}
+          activeClass="active"
+          to="aboutpart"
+          spy={true}
+          smooth={true}
+          offset={4700}
+          duration={1500}
+        >
+          <Menu.Item name={header.header.contact} />
+        </Link>
         <Menu.Item
           className={styles.flatLenguage}
           name="en"

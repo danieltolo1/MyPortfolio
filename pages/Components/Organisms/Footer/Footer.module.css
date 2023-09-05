@@ -1,5 +1,6 @@
 .footer {
 
+    flex-grow: 0 !important;
     flex: 1;
     padding: 2rem 0;
     padding-top: 100px;
@@ -28,6 +29,7 @@
 }
 
 .IconCenter {
+    cursor: pointer;
     position: absolute !important;
     z-index: 1 !important;
     left: 0 !important;
@@ -52,29 +54,18 @@
     background-color: #323030;
 }
 
-.socialMedia {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-}
 
-.socialMediaIcon {
-    color: #07dcb9 !important;
-}
-
-.socialMediaIcon:hover {
-    color: white !important;
-}
 
 .footer a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
+
 }
 
 
 .logo {
+    color: white;
     height: 1em;
     margin-left: 0.5rem;
 }

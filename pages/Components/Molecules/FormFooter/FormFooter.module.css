@@ -33,6 +33,7 @@
     background-color: transparent !important;
     border-radius: 5px !important;
     height: 40px !important;
+    transition: all ease 0.7s !important;
 
 }
 

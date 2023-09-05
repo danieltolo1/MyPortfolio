@@ -202,7 +202,9 @@
   "label1Name":"Name",
   "label2Email":"Email",
   "message":"Your Message",
-  "buttonSend" : "Submit"
+  "buttonSend" : "Submit",
+  "msgSuccess" : "Thank for the message, I will answer you as soon as possible",
+  "msgError" : "Sorry, Try to send again the message"
 }
 
 }

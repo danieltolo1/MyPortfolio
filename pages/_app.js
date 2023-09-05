@@ -1,9 +1,10 @@
 import "../styles/globals.css";
+import "react-toastify/dist/ReactToastify.css";
 import "semantic-ui-css/semantic.min.css";
+
+import { ToastContainer } from "react-toastify";
 import Head from "next/head";
 import dynamic from "next/dynamic";
-
-import Footer from "./Components/Organisms/Footer/Footer";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -15,6 +16,18 @@ function MyApp({ Component, pageProps }) {
       </Head>
 
       <Component {...pageProps} />
+      <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop
+        closeOnClick={true}
+        rtl={false}
+        pauseOnFocusLoss={false}
+        draggable={true}
+        pauseOnHover={true}
+        theme="dark"
+      />
     </>
   );
 }

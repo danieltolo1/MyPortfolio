@@ -79,8 +79,8 @@ export default function Header(header) {
             to="skillpart"
             spy={true}
             smooth={true}
-            offset={50}
-            duration={700}
+            offset={2750}
+            duration={2000}
           >
             <Menu.Item name={header.header.contact} />
           </Link>

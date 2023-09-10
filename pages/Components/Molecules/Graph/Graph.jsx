@@ -6,23 +6,28 @@ import Image from "next/image";
 import styles from "./Graph.module.css";
 import next from "../../../../img/next1.png";
 import js from "../../../../img/js2.png";
+import js85 from "../../../../img/85porJvs.png";
 import html from "../../../../img/html4.png";
+import html95 from "../../../../img/95porhtml.png";
 import css from "../../../../img/css4.png";
+import css85 from "../../../../img/85porCSS.png";
 import react from "../../../../img/react.png";
+import React78 from "../../../../img/78porREACT.png";
 import node from "../../../../img/nodejs.png";
+import node64 from "../../../../img/64porNJ.png";
 import wordpress from "../../../../img/Wordpress.png";
+import wordpress70 from "../../../../img/70porWORD.png";
 import photoshop from "../../../../img/photoshop.png";
+import ps85 from "../../../../img/85porPS.png";
 import strapi from "../../../../img/strapi.png";
+import strapi64 from "../../../../img/64porSTRAPI.png";
 import Angular from "../../../../img/anglular.png";
+import angular50 from "../../../../img/50porANGULAR.png";
 import unity from "../../../../img/unity.png";
+import unity50 from "../../../../img/50porUNITY.png";
 import gamem from "../../../../img/gamemaker.png";
-import novecinpor from "../../../../img/95por.png";
-import ochencinpor from "../../../../img/85por.png";
+import gamem50 from "../../../../img/50porGMS.png";
 import setentadospor from "../../../../img/72por.png";
-import setentaochopor from "../../../../img/78por.png";
-import setentapor from "../../../../img/70por.png";
-import sesentacuatropor from "../../../../img/64por.png";
-import cincuentapor from "../../../../img/50por.png";
 
 const Graph = () => {
   const [hold3, setHold3] = useState(false);
@@ -76,7 +81,7 @@ const Graph = () => {
             <Image
               size="small"
               className={styles.icon}
-              src={ochencinpor}
+              src={js85}
               alt="porcent"
             />
           </Reveal.Content>
@@ -91,7 +96,7 @@ const Graph = () => {
             <Image
               size="small"
               className={styles.icon}
-              src={novecinpor}
+              src={html95}
               alt="porcent"
             />
           </Reveal.Content>
@@ -106,7 +111,7 @@ const Graph = () => {
             <Image
               size="small"
               className={styles.icon}
-              src={ochencinpor}
+              src={css85}
               alt="porcent"
             />
           </Reveal.Content>
@@ -121,7 +126,7 @@ const Graph = () => {
             <Image
               size="small"
               className={styles.icon}
-              src={sesentacuatropor}
+              src={node64}
               alt="porcent"
             />
           </Reveal.Content>
@@ -136,7 +141,7 @@ const Graph = () => {
             <Image
               size="small"
               className={styles.icon}
-              src={setentaochopor}
+              src={React78}
               alt="porcent"
             />
           </Reveal.Content>
@@ -151,7 +156,7 @@ const Graph = () => {
             <Image
               size="small"
               className={styles.icon}
-              src={setentapor}
+              src={wordpress70}
               alt="porcent"
             />
           </Reveal.Content>
@@ -166,7 +171,7 @@ const Graph = () => {
             <Image
               size="small"
               className={styles.icon}
-              src={ochencinpor}
+              src={ps85}
               alt="porcent"
             />
           </Reveal.Content>
@@ -181,7 +186,7 @@ const Graph = () => {
             <Image
               size="small"
               className={styles.icon}
-              src={sesentacuatropor}
+              src={strapi64}
               alt="porcent"
             />
           </Reveal.Content>
@@ -196,7 +201,7 @@ const Graph = () => {
             <Image
               size="small"
               className={styles.icon}
-              src={cincuentapor}
+              src={angular50}
               alt="porcent"
             />
           </Reveal.Content>
@@ -211,7 +216,7 @@ const Graph = () => {
             <Image
               size="small"
               className={styles.icon}
-              src={cincuentapor}
+              src={unity50}
               alt="porcent"
             />
           </Reveal.Content>
@@ -226,7 +231,7 @@ const Graph = () => {
             <Image
               size="small"
               className={styles.icon}
-              src={cincuentapor}
+              src={gamem50}
               alt="porcent"
             />
           </Reveal.Content>

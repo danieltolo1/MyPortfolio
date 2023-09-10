@@ -31,11 +31,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 
 .card {
     padding: 0 !important;
     margin: 0 !important;
+    margin-right: 10px !important;
+    margin-bottom: 10px !important;
     width: 300px !important;
     animation-name: card !important;
     animation-duration: 2s !important;

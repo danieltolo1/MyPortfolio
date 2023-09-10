@@ -35,14 +35,8 @@ const Footer = (contact) => {
 
       <footer className={styles.footer}>
         <IconSocialMedia />
-        <div>
-          <Link
-            href="https://wa.link/0g3uwp"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            - Powered by{" Daniel Torres Londoño 2023 -"}
-          </Link>
+        <div className={styles.end}>
+          - Powered by{" Daniel Torres Londoño 2023 -"}
         </div>
       </footer>
     </>

@@ -28,6 +28,11 @@
 
 }
 
+.end {
+    color: white;
+    text-align: center;
+}
+
 .IconCenter {
     cursor: pointer;
     position: absolute !important;

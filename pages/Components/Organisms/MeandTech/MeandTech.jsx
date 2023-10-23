@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import Graph from "../../Molecules/Graph/Graph";
 
-import Me from "../../../../img/me.png";
+import Me from "../../../../img/DanielT.png";
 import styles from "./MeandTech.module.css";
 import { useEffect, useState } from "react";
 

@@ -16,7 +16,7 @@ const Banner = (presentation) => {
       <div className={styles.tituloBannner2}>{presentation.presentation2}</div>
       <Segment className={styles.SegmentDown} inverted>
         <Button
-          href="https://wa.link/rzp0cy"
+          href="https://wa.link/0g3uwp"
           className={styles.ButtonDown}
           inverted
           color="green"

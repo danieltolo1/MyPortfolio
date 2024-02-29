@@ -20,13 +20,13 @@ const IconSocialMedia = () => {
           size="huge"
         />
       </Link>
-      <Link href="https://wa.link/rzp0cy" target="_blank">
+      {/* <Link href="https://wa.link/rzp0cy" target="_blank">
         <Icon
           className={styles.socialMediaIcon}
           name="whatsapp square"
           size="huge"
         />
-      </Link>
+      </Link> */}
       <Link href="https://github.com/danieltolo1" target="_blank">
         <Icon
           className={styles.socialMediaIcon}

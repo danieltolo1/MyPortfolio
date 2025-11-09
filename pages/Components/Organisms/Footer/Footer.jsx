@@ -36,7 +36,7 @@ const Footer = (contact) => {
       <footer className={styles.footer}>
         <IconSocialMedia />
         <div className={styles.end}>
-          - Powered by{" Daniel Torres Londoño 2023 -"}
+          - Powered by{" Daniel Torres Londoño 2025 -"}
         </div>
       </footer>
     </>
